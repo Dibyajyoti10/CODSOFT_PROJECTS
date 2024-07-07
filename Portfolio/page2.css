@@ -1,0 +1,114 @@
+.container{
+    margin:0 auto;
+    width: 1300px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1rem ;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.logo-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 40px;
+}
+.nav-items div:hover{
+    font-weight: bold;
+}
+.media{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    position: relative;
+}
+.media-container{
+    background: #06ebb2;
+}
+.page-header{
+    font-size: 2rem;
+}
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    color: gold;
+    font-size: 47px;
+    font-style: oblique;
+    text-align: center;
+    background: #000;
+}
+.skill-container{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 2rem auto;
+    gap: 40px;
+}
+.skill-container-left{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 3rem;
+    position: relative;
+
+}
+.skill-container-right{
+    
+    display: flex;
+    flex-direction: column;
+}
+.skill-heading{
+    font-size: 2vw;
+}
+.skill-subheading{
+    font-size: 19px;
+}
+.resume-pdf{
+    position: relative;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 3px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+    input[type=submit] {
+    width: 100%;
+    background-color: orange;
+    color: brown;
+    padding: 12px 16px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    input[type=submit]:hover {
+    background-color: green;
+    }
+    .contact-box{
+        border: 10px solid rgb(208, 243, 10);
+        padding: 20px;
+        background: palevioletred;
+    }
+    .contact-info{
+        text-align: center;
+        padding: 50px 0;
+    }
+    .footer{
+        padding: 20px;
+        text-align: center;
+        background-color: #333;
+        color: white;
+    }

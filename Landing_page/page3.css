@@ -1,0 +1,12 @@
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 27px;
+    font-style: oblique;
+    text-align: center;
+}
+.flexdiv:hover{
+    box-shadow: 50px;
+}

@@ -1,0 +1,50 @@
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px;
+    overflow: hidden;
+    
+    background-color: white;
+}
+li{
+    float: right;
+    font-size: 25px;
+   
+}
+li a{
+    display: block;
+    padding: 15px 20px; 
+    border-radius: 45px;
+    color: blue;
+}
+li a:hover{
+    background-color: black;
+}
+p{
+    font-size: 3vw;
+}
+li a.active{
+    color: red;
+}
+body{
+    background-image: url(bg4.jpg);
+}
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 37px;
+    font-style: oblique;
+    font: 45px bold;
+    text-align: center;
+}
+.flexdiv:hover{
+    box-shadow: 550px;
+    
+}
+h1{
+    color: darkgoldenrod;
+    letter-spacing: 15px;
+}
+
