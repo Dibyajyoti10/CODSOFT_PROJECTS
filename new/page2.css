@@ -1,0 +1,60 @@
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px;
+    overflow: hidden;
+    font-family: cursive;
+    font-size: 20px;
+    background: #4792e9;
+}
+li{
+    float: left;
+    position: relative;
+    letter-spacing: 2px;
+    margin-right: 500px;
+    justify-content: center;
+}
+li a{
+    display: block;
+    padding: 15px 20px; 
+    border-radius: 45px;
+    color: rgb(253, 236, 0);
+}
+li a:hover{
+    background-color: rgb(76, 0, 253);
+}
+body{
+    background: #141010;
+}
+.flexdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 27px;
+    font-style: oblique;
+    text-align: center;
+}
+.flexdiv:hover{
+    box-shadow: 50px;
+}
+#Can,#Jd{
+    color: white;
+}
+.card{
+    border: 3px solid blue;
+    text-align: left;
+}
+.card-footer button{
+    background: #06eb80;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+.card-footer button:hover{
+    background: #eec408;
+}
+.card-header img{
+    padding: 5px 5px 5px;
+    background: rgb(207, 206, 206);
+}

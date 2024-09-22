@@ -1,0 +1,99 @@
+body{
+    background: #069af0;
+}
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px;
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+    position: relative;
+    letter-spacing: 2px;
+}
+li a{
+    display: block;
+    padding: 15px 20px; 
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(4, 0, 253);
+}
+.navbar{
+    float: right;
+    top: -107px;
+    position: relative;
+}
+li a.active{
+    background-color: green;
+}
+.logo{
+    height: 95px;
+    width: 95px;
+    background-color:#069af0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* modern button */
+#wrapper{
+    /*justify-content: center;*/
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.btn-pink{
+    background-color: #00d841;
+    padding: 0.5rem, 0.2rem;
+    color: white;
+    font-size: 22px;
+    /*box-shadow: 5px 5px 7px 2px #b2b2f0;*/
+    position: relative;
+    z-index: 1;
+    top: 60px;
+    left: 150px;
+    height: 50px;
+    width: 190px;
+    text-align: center;
+}
+
+.btn-pink::before{
+
+    background-color: #1624e9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 1s;
+    z-index: -1;
+    content: "";
+
+}
+.btn-pink:hover::before{
+    transform: scaleX(1);
+
+}
+h1,h2,p{
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+h2{
+    font-size: 56px;
+}
+.img{
+    margin: auto;
+    max-width:1px;
+}

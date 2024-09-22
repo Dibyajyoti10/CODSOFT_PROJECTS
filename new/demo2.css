@@ -1,0 +1,78 @@
+body{
+  background-color: #1d11ce;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+    left: -160px;
+    position: relative;
+    border-radius: 70px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 5px solid #ddd;
+    position: relative;
+    left: 1px;
+    width: 558px;
+    border-radius: 20px;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 550px;
+    font-size: 22px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    left: -160px;
+    border-radius: 20px;
+  }  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: #c21c1c;
+  }
+  
+  .show {
+    display: block;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 16px;
+  }
+  
